@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://muhammadshafiullah.space
+
+# Sitemaps
+Sitemap: https://muhammadshafiullah.space/sitemap.xml
