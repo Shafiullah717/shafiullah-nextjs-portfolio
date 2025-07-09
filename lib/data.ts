@@ -56,6 +56,7 @@ export const personalInfo: PersonalInfo = {
     { name: 'LinkedIn', href: 'https://www.linkedin.com/in/shafi-ullah-086b83284/', icon: 'Linkedin' },
     { name: 'Email', href: 'mailto:your.shafiullahcheema@gmail.com', icon: 'Mail' },
     { name: 'Instagram', href: 'https://www.instagram.com/shafiullahcheema._/', icon: 'Instagram' },
+    { name: 'Phone', href: 'https://wa.me/923027176662', icon: 'Phone' },
   ],
 };
 

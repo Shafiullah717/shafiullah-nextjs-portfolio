@@ -3,7 +3,7 @@
 import * as React from 'react';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
-import { Mail, Phone, Linkedin, Github, Copy, Check, Instagram } from 'lucide-react';
+import { Mail, Phone, Linkedin, Github, Copy, Check, Instagram,  } from 'lucide-react';
 import { personalInfo } from '@/lib/data';
 import { cn } from '@/lib/utils';
 import { Button } from '@/components/ui/button';

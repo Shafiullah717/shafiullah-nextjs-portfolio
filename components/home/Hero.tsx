@@ -129,12 +129,22 @@ export default function Hero() {
             transition={{ duration: 0.6, ease: 'easeOut', delay: 0.8 }}
             className="grid grid-cols-1 sm:grid-cols-2 gap-3 max-w-xl mx-auto"
           >
-            <motion.div whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.98 }}>
+            {/* <motion.div whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.98 }}>
               <Button asChild size="lg" className="w-full bg-accent hover:bg-accent/90 text-white shadow-lg group">
                 <Link href="projects">
                   <span className="flex items-center justify-center">
                     <span>View Projects</span>
                     <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                  </span>
+                </Link>
+              </Button>
+            </motion.div> */}
+            <motion.div whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.98 }}>
+              <Button asChild size="lg" className="w-full bg-accent hover:bg-accent/90 text-white shadow-lg group">
+                <Link href="/Resume.pdf" download>
+                  <span className="flex items-center justify-center">
+                    <span>Download CV</span>
+                    <Download className="ml-2 h-4 w-4 transition-transform group-hover:translate-y-0.5" />
                   </span>
                 </Link>
               </Button>
@@ -151,18 +161,9 @@ export default function Hero() {
               </Button>
             </motion.div>
             
-            <motion.div whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.98 }}>
-              <Button asChild size="lg" className="w-full group" variant="secondary">
-                <Link href="/Resume.pdf" download>
-                  <span className="flex items-center justify-center">
-                    <span>Download CV</span>
-                    <Download className="ml-2 h-4 w-4 transition-transform group-hover:translate-y-0.5" />
-                  </span>
-                </Link>
-              </Button>
-            </motion.div>
+
             
-            <motion.div whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.98 }}>
+            {/* <motion.div whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.98 }}>
               <Button asChild size="lg" className="w-full bg-[#25D366] hover:bg-[#25D366]/90 text-white shadow-lg group">
                 <Link href="https://wa.me/923027176662" target="_blank">
                   <span className="flex items-center justify-center">
@@ -171,7 +172,7 @@ export default function Hero() {
                   </span>
                 </Link>
               </Button>
-            </motion.div>
+            </motion.div> */}
           </motion.div>
         </motion.div>
 
