@@ -131,7 +131,7 @@ export default function Hero() {
           >
             <motion.div whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.98 }}>
               <Button asChild size="lg" className="w-full bg-accent hover:bg-accent/90 text-white shadow-lg group">
-                <Link href="#projects">
+                <Link href="projects">
                   <span className="flex items-center justify-center">
                     <span>View Projects</span>
                     <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
@@ -142,7 +142,7 @@ export default function Hero() {
             
             <motion.div whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.98 }}>
               <Button asChild variant="outline" size="lg" className="w-full bg-primary hover:bg-primary/90 text-white shadow-lg group">
-                <Link href="#contact">
+                <Link href="contact">
                   <span className="flex items-center justify-center">
                     <span>Get in Touch</span>
                     <MessageSquareText className="ml-2 h-4 w-4 transition-transform group-hover:scale-110" />
