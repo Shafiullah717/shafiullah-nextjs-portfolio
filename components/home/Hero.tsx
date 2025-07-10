@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import Container from '../shared/Container';
-import { ArrowRight, MessageSquareText, ChevronsDown, Download, MessageCircle } from 'lucide-react';
+import { MessageSquareText, ChevronsDown, Download, } from 'lucide-react';
 import Image from 'next/image';
 import { useState, useEffect } from 'react';
 
