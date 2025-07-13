@@ -55,6 +55,7 @@ export default function AboutPreview() {
 
           {/* Text Content Column */}
           <div className="w-full md:w-3/5 space-y-5 md:space-y-6">
+          <h2 className="sr-only">About Muhammad Shafiullah — Full Stack Developer</h2>
             <motion.h2
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -64,6 +65,7 @@ export default function AboutPreview() {
             >
               Crafting Digital Experiences
             </motion.h2>
+            
 
             <motion.p
               initial={{ opacity: 0, y: 20 }}
@@ -72,7 +74,7 @@ export default function AboutPreview() {
               viewport={{ once: true, amount: 0.3 }}
               className="text-base md:text-lg text-muted-foreground"
             >
-              I&apos;m a passionate full-stack developer specializing in creating intuitive,
+              I&apos;m <strong>Muhammad Shafiullah Cheema</strong>, a passionate full-stack developer specializing in creating intuitive,
               high-performance web applications. With expertise in both{' '}
               <span className="font-semibold text-foreground">frontend design</span> and{' '}
               <span className="font-semibold text-foreground">backend architecture</span>,

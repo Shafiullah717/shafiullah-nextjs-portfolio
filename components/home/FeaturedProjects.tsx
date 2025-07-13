@@ -23,6 +23,7 @@ export default function FeaturedProjects() {
           transition={{ duration: 0.8 }}
           viewport={{ once: true, amount: 0.2 }}
         >
+          <h2 className="sr-only">Projects by Muhammad Shafiullah — Full Stack Developer</h2>
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-primary text-center mb-12">
             Featured Projects
           </h2>

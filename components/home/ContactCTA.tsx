@@ -24,6 +24,7 @@ export default function ContactCTA() {
           viewport={{ once: true, amount: 0.4 }}
           className="text-center space-y-6 max-w-2xl mx-auto" // Increased max-width
         >
+          <h2 className="sr-only">Contact Muhammad Shafiullah — Full Stack Developer</h2>
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-primary">
             Ready to Build Something Amazing?
           </h2>
