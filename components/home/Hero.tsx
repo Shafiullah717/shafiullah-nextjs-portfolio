@@ -187,6 +187,7 @@ export default function Hero() {
             </motion.div>
           </div>
         </motion.div>
+        
       </Container>
     </header>
   );
