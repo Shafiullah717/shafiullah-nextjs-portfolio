@@ -135,6 +135,19 @@ export const journeyEvents: JourneyEvent[] = [
 
 // All Project Data for the /projects page
 export const allProjects: Project[] = [
+  
+    {
+    id: 'Mehmood Builders & Developers Website',
+    title: 'Mehmood Builders & Developers Website',
+    description: 'A modern, responsive portfolio website for a real estate and construction company built using Next.js and Tailwind CSS.',
+    longDescription: 'A multi-page website designed for Mehmood & Co Builders and Developers to showcase their services and completed projects. Built using Next.js App Router and Tailwind CSS with dynamic routing and responsive layouts. Deployed on Vercel with clean UI and real-time feedback integration from the client.',
+    tech: ['Reactjs', 'TailwindCss', 'Styled-Components'],
+    category: ['Frontend', 'Web Development'],
+    imageUrl: '/Projects/mehmood-builders.png', // Placeholder image
+    link: 'https://mehmood-co-builders-and-developers.vercel.app/',
+    github: 'https://github.com/Shafiullah717/mehmood-co-Builders-and-Developers',
+    featured: true, // This is a featured project!
+  },
   {
     id: 'Likho-blog-platform',
     title: 'Likho Blog Platform',
@@ -148,6 +161,19 @@ export const allProjects: Project[] = [
     featured: true, // Mark as featured for Home page
   },
   {
+    id: 'Muhib-e-Ali Daryadil Welfare Organization Website',
+    title: 'Muhib-e-Ali Daryadil Welfare Organization Website',
+    description: 'A clean and responsive portfolio-style website built for a welfare organization to showcase their social work and impact',
+    longDescription: 'Developed a visually appealing and mobile-friendly website for Muhib-e-Ali Daryadil, a local welfare organization. Used Next.js and Tailwind CSS to build pages for their mission, services, and humanitarian work. Optimized for fast loading, SEO, and deployed via Vercel for smooth client collaboration',
+    tech: ['Next.js', 'TailwindCss', 'Framermotion'],
+    category: ['Frontend', 'Web Development'],
+    imageUrl: '/Projects/muhib-ali.png', // Placeholder image
+    link: 'https://muhib-e-ali-daryadil.vercel.app/',
+    github: 'https://github.com/Shafiullah717/muhib-e-ali-daryadil',
+    featured: false, // This is a featured project!
+  },
+  
+  {
     id: 'legal-aid-assistant',
     title: 'Legal Aid Assistant',
     description: 'Designed an AI-powered legal aid application to simplify legal processes for underserved communities.',
@@ -159,6 +185,7 @@ export const allProjects: Project[] = [
     github: 'https://github.com/Shafiullah717/AI-Powered-Legal-Aid-Assistance-By-Ahsan-and-Shafiullah-',
     featured: true, // Mark as featured
   },
+  
   {
     id: 'gym-website',
     title: 'Fitness Fusion',
@@ -193,7 +220,7 @@ export const allProjects: Project[] = [
     imageUrl: '/Projects/Old-Protfolio.png', // Placeholder image
     link: 'https://portfolio-by-muhammad-shafiullah.netlify.app/',
     github: 'https://github.com/Shafiullah717/Portfolio-Website',
-    featured: true, // This is a featured project!
+    featured: false, // This is a featured project!
   },
   {
     id: 'expense-tracker',
@@ -207,4 +234,5 @@ export const allProjects: Project[] = [
     github: 'https://github.com/Shafiullah717/React-Expense-Checker',
     featured: false, // This is a featured project!
   },
+    
 ];
